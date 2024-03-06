@@ -1,0 +1,7 @@
+@font-face{
+    font-family: monofontorg;
+
+    /*Caso a fonte esteja na mesma pasta*/
+    src: url("/fonts/monofontorg.otf");
+}
+
