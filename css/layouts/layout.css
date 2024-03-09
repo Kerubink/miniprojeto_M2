@@ -1,0 +1,101 @@
+body {
+    overflow: hidden;
+    color: #fff;
+    background-color: black;
+}
+
+#video-bg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background: url(/assets/20173.mp4) no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+  }
+  
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    list-style: none;
+    gap: 10px;
+}
+
+.navBar .logo {
+    flex-grow: 1;
+}
+
+.navBar .logo a {
+    display: flex;
+    gap: 3px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.navBar .itens {
+    display: flex;  
+}
+
+.navBar .itens  a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px;  
+}
+
+.navBar .itens button {
+    background-color: transparent;
+    border-radius: 20px;
+    height: 40px;
+    border: 2px solid #11d9e7;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.navBar .itens button:hover {
+    background-color: #11d9e7;
+    color: white;
+}
+
+.homePage {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.conteudo {
+    width: 500px;
+    height: 250px;
+}
+
+.conteudo p {
+    text-align: justify;
+}
+
+
+
+
+.img_conteudo img{
+   width: 250px;
+}
