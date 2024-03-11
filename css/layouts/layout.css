@@ -21,6 +21,7 @@ body {
   }
   
 
+
 header {
     width: 100%;
     display: flex;
@@ -95,6 +96,12 @@ a.wave-link {
   }
   
 
+  @media (max-width: 768px) {
+    .navBar .itens {
+        display: none;  
+    }
+    
+  }
 
 .homePage {
     display: flex;
@@ -125,4 +132,16 @@ a.wave-link {
 
 .img_conteudo img{
    width: 250px;
+}
+
+
+@media (max-width: 768px) {
+    .homePage {
+        flex-direction: column;
+    }
+
+    .conteudo {
+        width: 100%;
+    }
+
 }

@@ -17,6 +17,7 @@
     height: 2.8em;
     padding-right: 3.3em;
     cursor: pointer;
+    z-index: 1000 !important;
   }
   
   .cssbuttons-io-button .icon {

@@ -1,89 +1,132 @@
-<!DOCTYPE html> 
-<html lang="pt-BR"> 
- 
-<head> 
-   <meta charset="UTF-8"> 
-   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-   <title>Mini_Projeto M2 - Formulario de Cadastro</title> 
-   <link rel="stylesheet" href="css/style.css"> 
-   <link rel="stylesheet" href="/css/layouts/layout.css">
-   <link rel="stylesheet" href="/css/components/cubo.css">
-   <link rel="stylesheet" href="/css/components/botao_saibamais.css">
-   <link rel="stylesheet" href="/css/components/botao_login.css">
-</head> 
- 
-<body>
-   <video autoplay muted loop id="video-bg">
-      <source src="/assets/20173.mp4" type="video/mp4">
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini_Projeto M2 - Formulario de Cadastro</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="/css/layouts/layout.css" />
+    <link rel="stylesheet" href="/css/components/cubo.css" />
+    <link rel="stylesheet" href="/css/components/botao_saibamais.css" />
+    <link rel="stylesheet" href="/css/components/botao_login.css" />
+  </head>
+
+  <body>
+    <video autoplay muted loop id="video-bg">
+      <source src="/assets/20173.mp4" type="video/mp4" />
     </video>
-     
+
     <header>
       <ul class="navBar">
-         <li class="logo"><a href="#"><img src="/img/cubo-3d (1).png" alt="">KubeLab</a></li>
-         <li class="itens"><a href="#" class="wave-link"><span>Home</span>
-            <svg class="link__graphic link__graphic--slide" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
-                               <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
-                            </svg>
-          </a></li>
-         <li class="itens"><a href="/pages/Dashboard/dashboard.html" class="wave-link"><span>Pages</span>
-            <svg class="link__graphic link__graphic--slide" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
-                               <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
-                            </svg>
-          </a></li>
-         <li class="itens"><a href="#" class="wave-link"><span>Blog</span>
-            <svg class="link__graphic link__graphic--slide" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
-                               <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
-                            </svg>
-          </a></li>
-         <li class="itens">
-            <a href="/pages/Dashboard/dashboard.html">
-               <button class="full-rounded login">
-                  <span>Entrar</span>
-               <div class="border full-rounded"></div></button>
-            </a>
-         </li>
+        <li class="logo">
+          <a href="#"><img src="/img/cubo-3d (1).png" alt="" />KubeLab</a>
+        </li>
+        <li class="itens">
+          <a href="#" class="wave-link"
+            ><span>Home</span>
+            <svg
+              class="link__graphic link__graphic--slide"
+              width="300%"
+              height="100%"
+              viewBox="0 0 1200 60"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"
+              ></path>
+            </svg>
+          </a>
+        </li>
+        <li class="itens">
+          <a href="/pages/Dashboard/dashboard.html" class="wave-link"
+            ><span>Pages</span>
+            <svg
+              class="link__graphic link__graphic--slide"
+              width="300%"
+              height="100%"
+              viewBox="0 0 1200 60"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"
+              ></path>
+            </svg>
+          </a>
+        </li>
+        <li class="itens">
+          <a href="#" class="wave-link"
+            ><span>Blog</span>
+            <svg
+              class="link__graphic link__graphic--slide"
+              width="300%"
+              height="100%"
+              viewBox="0 0 1200 60"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"
+              ></path>
+            </svg>
+          </a>
+        </li>
+        <li class="itens-login">
+          <a href="/pages/Dashboard/dashboard.html">
+            <button class="full-rounded login">
+              <span>Entrar</span>
+              <div class="border full-rounded"></div>
+            </button>
+          </a>
+        </li>
       </ul>
     </header>
 
     <section class="homePage">
       <div class="conteudo">
-         <h1>Bem vindo à KubeLab!</h1>
-         <p>Nosso dashboard intuitivo e poderoso ajuda você a tomar decisões informadas para impulsionar o sucesso da sua empresa. Com análises em tempo real e ferramentas personalizáveis, o KubeLab simplifica a gestão de dados para o crescimento do seu negócio.</p>
-         <p>Descubra o poder da análise de dados com o KubeLab e leve sua empresa ao próximo nível.</p>
-         
-         <a href="/pages/Dashboard/dashboard.html">
-            <button class="cssbuttons-io-button">
-               Saiba mais
-               <div class="icon">
-                 <svg
-                   height="24"
-                   width="24"
-                   viewBox="0 0 24 24"
-                   xmlns="http://www.w3.org/2000/svg"
-                 >
-                   <path d="M0 0h24v24H0z" fill="none"></path>
-                   <path
-                     d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-                     fill="currentColor"
-                   ></path>
-                 </svg>
-               </div>
-             </button>
-         </a>
+        <h1>Bem vindo à KubeLab!</h1>
+        <p>
+          Nosso dashboard intuitivo e poderoso ajuda você a tomar decisões
+          informadas para impulsionar o sucesso da sua empresa. Com análises em
+          tempo real e ferramentas personalizáveis, o KubeLab simplifica a
+          gestão de dados para o crescimento do seu negócio.
+        </p>
+        <p>
+          Descubra o poder da análise de dados com o KubeLab e leve sua empresa
+          ao próximo nível.
+        </p>
+
+        <a href="/pages/Dashboard/dashboard.html">
+          <button class="cssbuttons-io-button">
+            Saiba mais
+            <div class="icon">
+              <svg
+                height="24"
+                width="24"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+          </button>
+        </a>
       </div>
       <!-- <div class="img_conteudo">
          <img src="https://cdn-icons-png.flaticon.com/512/3591/3591253.png" alt="dashboard">
       </div> -->
       <div class="spinner">
-         <div></div>
-         <div></div>
-         <div></div>
-         <div></div>
-         <div></div>
-         <div></div>
-         </div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </section>
-   
-   <script src="js/script.js"></script> 
-</body> 
-</html> 
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

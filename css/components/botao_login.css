@@ -23,15 +23,15 @@
     transition: all 0.3s 0.08s linear;
     top: 50%;
     left: 50%;
-    width: 9em;
+    width: 7.5em;
     height: 3em;
     transform: translate(-50%, -50%);
    }
    
    .login:hover .border {
     display: block;
-    width: 9.3em;
-    height: 3.3em;
+    width: 7.6em;
+    height: 3.1em;
    }
    
    .full-rounded {

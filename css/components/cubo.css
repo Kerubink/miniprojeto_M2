@@ -3,6 +3,8 @@
     height: 150px;
     animation: spinner-y0fdc1 2s infinite ease;
     transform-style: preserve-3d;
+    position: relative;
+    z-index: 0 !important;
    }
    
    .spinner > div {
